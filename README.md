@@ -8,7 +8,7 @@
 
 ## In-Class Assignments
 ### - ICA1
-### - <a href="file:///Users/marthaesparza/Downloads/ICA1%20--%20How%20to%20Search%20(1)%20(3).pdf">
+### - <a href="file:///Users/marthaesparza/Downloads/ICA1%20--%20How%20to%20Search%20(1)%20(3).pdf">ICA1</a> 
 ### - ICA2
 ### - ICA3
 ### - ICA4
