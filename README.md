@@ -8,7 +8,7 @@
 
 ## In-Class Assignments
 ### - ICA1
-### - <a href="file:///Users/marthaesparza/Downloads/ICA1%20--%20How%20to%20Search%20(1)%20(3).pdf">ICA1</a> 
+### - <a href="https://docs.google.com/document/d/1uDO11O6nxyhd6Eei8RVWgkCzD1Kl_ildNbLywMmQuYQ/edit?usp=sharing">ICA1Link</a> 
 ### - ICA2
 ### - ICA3
 ### - ICA4
@@ -26,7 +26,7 @@
 
 ## Weekly Assignments
 ### - WA1
-### - <a href="https://maes4595.github.io/wa/wa1.html">
+### - <a href="https://maes4595.github.io/wa/wa1.html">WALink</a>
 ### - WA2
 ### - WA3
 ### - WA4
