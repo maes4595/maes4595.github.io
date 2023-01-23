@@ -4,9 +4,11 @@
 ## Projects
 ### - HTML
 ### - CSS
+### - JS
 
 ## In-Class Assignments
 ### - ICA1
+### - <a href="file:///Users/marthaesparza/Downloads/ICA1%20--%20How%20to%20Search%20(1)%20(3).pdf">
 ### - ICA2
 ### - ICA3
 ### - ICA4
@@ -24,6 +26,7 @@
 
 ## Weekly Assignments
 ### - WA1
+### - <a href="https://maes4595.github.io/wa/wa1.html">
 ### - WA2
 ### - WA3
 ### - WA4
