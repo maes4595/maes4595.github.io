@@ -25,7 +25,7 @@
 
 ## Weekly Assignments
 ### - <a href="https://maes4595.github.io/wa/wa1.html">WA1</a>
-### - <a href="file:///Users/marthaesparza/Documents/GitHub/maes4595.github.io/wa/wa2.html">WA2</a>
+### - <a href="https://github.com/maes4595/maes4595.github.io/blob/main/wa/wa2.html">WA2</a>
 ### - WA3
 ### - WA4
 ### - WA5
