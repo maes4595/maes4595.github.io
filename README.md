@@ -9,7 +9,7 @@
 ## In-Class Assignments
 ### - <a href="https://docs.google.com/document/d/1uDO11O6nxyhd6Eei8RVWgkCzD1Kl_ildNbLywMmQuYQ/edit?usp=sharing">ICA1</a> 
 ### - <a href="https://docs.google.com/document/d/1FYjGcv9yKIuWhrOuoo4pb-uID4sq3rCybSTfiRcIBBI/edit?usp=sharing">ICA2</a> 
-### - ICA3
+### - ICA3 
 ### - ICA4
 ### - ICA5
 ### - ICA6
