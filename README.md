@@ -2,7 +2,7 @@
 
 
 ## Projects
-### - HTML
+### - <a href="https://maes4595.github.io/html-midterm/page5.html">HTML</a> 
 ### - CSS
 ### - JS
 
