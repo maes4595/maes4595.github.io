@@ -25,7 +25,7 @@
 #tallScreen{
     background-color: lavender;
 }
-@media screen and (min-height: 800px) {
+@media screen and (min-height: 801px) {
     #tallScreen{
         background-color: orange;
     }
