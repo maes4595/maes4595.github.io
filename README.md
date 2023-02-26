@@ -29,7 +29,7 @@
 ### - <a href="https://maes4595.github.io/wa/wa3.html">WA3</a>
 ### - <a href="https://maes4595.github.io/wa/wa4.html">WA4</a>
 ### - <a href="https://maes4595.github.io/wa/wa5.html">WA5</a>
-### - WA6
+### - <a href="https://maes4595.github.io/wa/wa6/images/index.html">WA6</a>
 ### - WA7
 ### - WA8
 ### - WA9
