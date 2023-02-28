@@ -13,7 +13,7 @@
 ### - <a href="https://maes4595.github.io/ica/ICA4.html">ICA4</a>
 ### - <a href="https://maes4595.github.io/ica/ica5.html">ICA5</a>
 ### - <a href="https://maes4595.github.io/ica/ica6-part2.html">ICA6</a>
-### - <a href="https://maes4595.github.io/ica/ica7/ica7.html">ICA7</a>
+### - <a href="https://maes4595.github.io/ica7/ica7.html">ICA7</a>
 ### - ICA8
 ### - ICA9
 ### - ICA10
