@@ -9,7 +9,7 @@
   body {
     font-family: copperplate;
     font-size: 16px;
-    color: #4A4A4A;
+    color: #240346;
     background-color: #F3EFFF;
   }
   
@@ -17,8 +17,16 @@
     font-size: 2.5em;
     margin: 0;
     text-align: center;
-    color: #ece2fb;
+    color: hsl(0, 0%, 100%);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  }
+  h2{
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+    color: #039156;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
   }
   
   img {
@@ -38,11 +46,22 @@
     box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     padding: 2em;
     margin: 1em 0;
+    background-image: url('../img/flower.jpg');
+    background-size: cover;
+  background-position: center;
+
+  }
+  .box p{
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+    color: #004b2c;
+
   }
   
   .button {
     display: inline-block;
-    background-color: #6C00FF;
+    background-color: #004b2c;
     color: #FFFFFF;
     font-weight: bold;
     text-transform: uppercase;
@@ -53,19 +72,19 @@
   }
   
   .button:hover {
-    background-color: #4B0082;
+    background-color: #c26dff;
   }
   
   .text {
     font-style: italic;
     text-align: center;
     margin: 2em 0;
-    color: #6C00FF;
+    color: #ba66ff;
   }
   
   /* Header */
   header {
-    background-color: #6C00FF;
+    background-color: #c49dfb;
     color: #FFFFFF;
     padding: 1rem;
     width: 100%;
@@ -75,7 +94,7 @@
   }
   
   nav {
-    background-color: #8B00FF;
+    background-color: #ba66ff;
     color: #FFFFFF;
     padding: .5em;
     width: 100%;
@@ -96,6 +115,10 @@
   nav a {
     color: #FFFFFF;
     text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #240346;
   }
   
   /* Grid */
@@ -155,6 +178,27 @@
       margin-bottom: 20px;
     }
   }
+
+  #dog{
+    position: fixed;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  animation-name: move;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0%{left:0;top:20vh}
+    25%{left:75vw;top:20vh}
+    50%{left:75vw;top:80vh;}
+    75%{left:0vw;top:80vh;}
+    100%{left:0;top:20vh;}
+}
+
   
   /* Footer */
   footer {
