@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICA9 Interactive JS</title>
+    <style>
+
+        body{
+            background-color: darkgray;
+        }
+      .box {
+        width: 10em;
+        height: 10em;
+        background-color: blue;
+        margin: 10em auto;
+        position: relative;
+        transition: transform 0.5s ease;
+      }
+
+      .box:hover {
+        transform: rotate(360deg);
+      }
+      
+      .heading {
+        font-size: 24px;
+        text-align: center;
+        font-family: copperplate;
+      }
+      p{
+        font-size: 15px;
+        text-align: center;
+        font-family: copperplate;
+      }
+      
+      #triangle-up {
+        width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(0, 110, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading">JS Interactive Element ICA9</h1>
+    <p>Please click the traingle to have the background change colors, please mouse over the square to make it rotate.</p>
+    <div class="box" id="box1"></div>
+    <div id="triangle-up"></div>
+    
+    <script>
+      var box = document.querySelector(".box");
+      var isOverBox = false;
+      var angle = 0;
+
+      function rotateBox() {
+        if (isOverBox) {
+          angle += 1;
+          box.style.transform = "rotate(" + angle + "deg)";
+          requestAnimationFrame(rotateBox);
+        }
+      }
+
+      box.addEventListener("mouseenter", function () {
+        isOverBox = true;
+        rotateBox();
+      });
+
+      box.addEventListener("mouseleave", function () {
+        isOverBox = false;
+      });
+
+
+      document.getElementById('triangle-up').addEventListener('click', function() {
+        if (this.style.backgroundColor === 'red') {
+          this.style.backgroundColor = 'green';
+        } else {
+          this.style.backgroundColor = 'red';
+        }
+      });
+    </script>
+  </body>
+</html>
