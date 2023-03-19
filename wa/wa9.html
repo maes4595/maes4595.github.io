@@ -9,7 +9,6 @@
       body {
         font-family: helvetica, sans-serif;
         width: 350px;
-        margin: 0 auto;
       }
 
       label {
@@ -23,48 +22,19 @@
       input[type="text"] {
         padding: 5px;
         width: 150px;
-        border: 1px solid #ccc;
-    border-radius: 3px;
       }
 
       input[type="radio"] {
-    margin-right: 10px;
-  }
+        margin-right: 10px;
+      }
+
       p {
         background: #FFC125;
         color: #5E2612;
         padding: 10px;
         visibility: hidden;
       }
-      .randomize {
-    padding: 10px;
-    background-color: #FFC125;
-    border: none;
-    border-radius: 3px;
-    color: #5E2612;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .randomize:hover {
-    background-color: #FFD966;
-  }
-
-  .story {
-    background-color: #FFF8DC;
-    color: #5E2612;
-    padding: 10px;
-    visibility: hidden;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-
-  .story::before {
-    content: 'Once upon a time...';
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-  }
+    
     </style>
   </head>
   <body data-new-gr-c-s-check-loaded="14.1100.0" data-gr-ext-installed>
@@ -79,14 +49,9 @@
       <input id="uk" type="radio" name="ukus" value="uk">
     </div>
     <div>
-        <button onclick="result()" class="randomize">Generate random story</button>
-
+      <button class="randomize">Generate random story</button>
     </div>
-    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
-    <p class="story" style="visibility: visible;">
-      "It was 94 fahrenheit outside, so Father Christmas went for a walk. When they got to the White House,
-      they stared in horror for a few moments, then spontaneously combusted. martha saw the whole thing, but was not surprised"
-    </p>
-    <script src="main.js"></script>
+    <p class="story"></p>
+    <script src="../js/main.js"></script>
   </body>
 </html>
