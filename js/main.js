@@ -8,14 +8,14 @@ function randomValueFromArray(array) {
 }
 
 const storyText =
-  'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. :insertx: saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+  'It was 94 fahrenheit outside, so :insertx: went for a  brisk and long walk in the sun. When they got to :inserty:, they stared in amazing for a few hours, then :insertz:. :insertx: saw the whole thing, but was not surprised — :insertx: weighs 600 pounds, and it was a hot sunny day where sunburns hurt.';
 
-const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
-const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
+const insertX = ['Laurie the RA', 'Small Rabbit', 'Valentines Cupid'];
+const insertY = ['the mall', 'Denver', 'CU-Boulder'];
 const insertZ = [
-  'spontaneously combusted',
-  'melted into a puddle on the sidewalk',
-  'turned into a slug and crawled away',
+  'threw up',
+  'exploded into glitter',
+  'changed colors',
 ];
 
 function result() {
@@ -39,7 +39,7 @@ function result() {
     const temperature = Math.round(((94 - 32) * 5) / 9);
 
     newStory = newStory.replace('94 fahrenheit', temperature + ' centigrade');
-    newStory = newStory.replace('300 pounds', weight + ' stone');
+    newStory = newStory.replace('600 pounds', weight + ' stone');
   }
 
   story.textContent = newStory;
