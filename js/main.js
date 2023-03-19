@@ -1,6 +1,6 @@
 // 1. COMPLETE VARIABLE AND FUNCTION DEFINITIONS
 const customName = document.getElementById('customname');
-const randomize = document.querySelector('.randomize');
+const randomize = document.querySelector('button.randomize');
 const story = document.querySelector('.story');
 
 function randomValueFromArray(array){
