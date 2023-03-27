@@ -13,7 +13,7 @@ const altTexts = {
   "../img/herhsey.jpg": "big dog",
   "../img/momandme.jpg": "mom and i",
   "./img/bombon.jpg": "little dog",
-  "../img/Queen.jpg": "queen",
+  "../img/Queen.jpg": "queen with crown",
   "../img/MarthaHeadshot.jpg": "me"
 };
 
