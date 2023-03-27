@@ -19,14 +19,14 @@ const altTexts = {
 
 const thumbBar = document.querySelector(".thumb-bar");
 
-// Loop through images and add thumbnails to the thumb bar
+
 for (let i = 0; i < images.length; i++) {
   const newImage = document.createElement("img");
   newImage.setAttribute("src", "../img/" + images[i]);
   newImage.setAttribute("alt", altTexts[images[i]]);
   thumbBar.appendChild(newImage);
 
-  // Add click event listener to each thumbnail
+  
   newImage.addEventListener("click", function() {
     const displayedImg = document.querySelector("#displayed-img");
     displayedImg.setAttribute("src", this.getAttribute("src"));
@@ -34,7 +34,7 @@ for (let i = 0; i < images.length; i++) {
   });
 }
 
-// Add click event listener to darken/lighten button
+
 const btn = document.querySelector("#toggle-darken");
 const overlay = document.querySelector("#overlay");
 btn.addEventListener("click", function() {
