@@ -7,13 +7,13 @@ const images = [
   "../img/herhsey.jpg",
    "../img/momandme.jpg",
     "../img/bombon.jpg",
-     "../img/queen.jpg",
+     "../img/Queen.jpg",
       "../img/MarthaHeadshot.jpg"];
 const altTexts = {
   "../img/herhsey.jpg": "big dog",
   "../img/momandme.jpg": "mom and i",
   "./img/bombon.jpg": "little dog",
-  "../img/queen.jpg": "queen",
+  "../img/Queen.jpg": "queen",
   "../img/MarthaHeadshot.jpg": "me"
 };
 
