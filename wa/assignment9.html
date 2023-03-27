@@ -1,0 +1,104 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+  max-width: 800px; 
+      }
+
+      .thumb-bar {
+        display: flex;
+        justify-content: center;
+      }
+
+      .thumb-bar img {
+        margin: 0 10px;
+        width: 100px;
+        height: auto;
+        cursor: pointer;
+      }
+
+      .full-img {
+        position: relative;
+      }
+
+      #displayed-img {
+        max-width: 90%;
+        max-height: 80vh;
+      }
+      button {
+  border: 0;
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+      .darken {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .darken.active {
+        pointer-events: all;
+        opacity: 1;
+      }
+
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      h1{
+        font-family: copperplate;
+        text-align: center;
+
+      }
+
+</style>
+</head>
+<header>
+  <h1>Image Gallery</h1>
+</header>
+<body>
+
+  
+  <div class="gallery">
+    <div class="full-img">
+      <img id="displayed-img" src="../img/herhsey.jpg" alt="A big dog">
+      <div id="overlay" class="darken"></div>
+      <button id="toggle-darken">Toggle Darken/Lighten</button>
+    </div>
+    <div class="thumb-bar">
+   
+    </div>
+  </div>
+  <script src="../js/assignment9.js"></script>
