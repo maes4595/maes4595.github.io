@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: copperplate;
-  background-color: #e7bdef;
+  background-color: #52f5f8;
 }
 
 .app {
@@ -78,23 +78,23 @@ header {
 }
 
 .twitter {
-  background-color: #1df2b6;
+  background-color: #73f771;
   text-decoration: none;
   margin-top: 20px;
 }
 
 .twitter:hover {
-  background-color: #8df2db;
+  background-color: #208e26;
 }
 
 .new-quote {
-  background-color: #ce4ae0;
+  background-color: #2ef0fa;
   margin-bottom: 15px;
   font-family: copperplate;
 }
 
 .new-quote:hover {
-  background-color: #ae63eb;
+  background-color: #3fa0fb;
 }
 
 .new-quote:disabled {
