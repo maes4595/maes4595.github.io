@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: copperplate;
-  background-color: #52f5f8;
+  background-color: #e7bdef;
 }
 
 .app {
@@ -37,31 +37,17 @@ header {
 .quotes {
   padding: 20px 50px;
   min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .quote-text {
   padding-bottom: 20px;
   font-size: 25px;
   color: black;
-  text-align: center;
-}
-
-.quote-image {
-  max-width: 80%;
-  height: auto;
-  margin-top: 20px;
 }
 
 .controls {
   width: 100%;
   padding: 20px 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .button {
@@ -78,23 +64,22 @@ header {
 }
 
 .twitter {
-  background-color: #73f771;
+  background-color: #1df2b6;
   text-decoration: none;
-  margin-top: 20px;
 }
 
 .twitter:hover {
-  background-color: #208e26;
+  background-color: #8df2db;
 }
 
 .new-quote {
-  background-color: #2ef0fa;
+  background-color: #ce4ae0;
   margin-bottom: 15px;
   font-family: copperplate;
 }
 
 .new-quote:hover {
-  background-color: #3fa0fb;
+  background-color: #ae63eb;
 }
 
 .new-quote:disabled {
@@ -110,18 +95,4 @@ header {
   .quote-text {
     font-size: 18px;
   }
-}
-
-.dog-image {
-  text-align: center;
-  margin-top: 20px;
-  max-width: 100%;
-}
-
-#js-dog-image {
-  max-width: 300px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 
 }
