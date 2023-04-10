@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSON: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      /* general styles */
+      html {
+        font-family: copperplate;
+      }
+
+      body {
+        width: 800px;
+        margin: 0 auto;
+      }
+
+      h1,
+      h2 {
+        font-family: "Faster One", cursive;
+      }
+
+      /* header styles */
+      h1 {
+        font-size: 4rem;
+        text-align: center;
+      }
+
+      header p {
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      /* section styles */
+      section article {
+        width: 33%;
+        float: left;
+      }
+
+      section p {
+        margin: 5px 0;
+      }
+
+      section ul {
+        margin-top: 0;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        letter-spacing: -5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Cats</h1>
+      <p>A list of cats and their kittens</p>
+    </header>
+
+    <section>
+      <article>
+        <h2>Mother cats</h2>
+        <p id="mother-cats"></p>
+      </article>
+
+      <article>
+        <h2>Kitten count</h2>
+        <p id="kitten-count"></p>
+      </article>
+    </section>
+
+    <script>
+      const section = document.querySelector("section");
+      const motherCatsPara = document.querySelector("#mother-cats");
+      const kittenCountPara = document.querySelector("#kitten-count");
+
+      const requestURL =
+        "https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json";
+
+      fetch(requestURL)
+        .then((response) => response.json())
+        .then((data) => {
+          let motherCats = "The mother cats are called ";
+          let totalKittens = 0;
+          let maleKittens = 0;
+
+          data.forEach((cat) => {
+            motherCats += `${cat.name}, `;
+            cat.kittens.forEach((kitten) => {
+              totalKittens++;
+              if (kitten.gender === "m") {
+                maleKittens++;
+              }
+            });
+          });
+
+          motherCats = motherCats.slice(0, -2) + ` and ${data[data.length - 1].name}.`;
+
+          kittenCountPara.textContent = `Total kittens: ${totalKittens}. ${maleKittens} male, ${
+            totalKittens - maleKittens
+          } female.`;
+          motherCatsPara.textContent = motherCats;
+        });
+    </script>
+  </body>
+</html>
