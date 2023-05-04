@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/dark-blue-sky-clouds.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    background-color: #060e83;
+    color: white; /* change the color to dark gray */
+    font-family: copperplate; /* change the font to Arial */
+    padding: 20px; /* add some padding to the top and bottom */
+}
+
+p {
+    text-align: center;
+    background-color: #060e83;
+    color: white; /* change the color to dark gray */
+    font-family: copperplate; /* change the font to Arial */
+    padding: 10px; /* add some padding to the top and bottom */
+}
