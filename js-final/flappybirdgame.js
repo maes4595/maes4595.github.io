@@ -98,8 +98,8 @@ function drawScore() {
   ctx.font = "24px Copperplate";
   ctx.fillStyle = "black";
   ctx.fillText(`Score: ${score}`, 10, 50);
-  ctx.textAlign = "left"; // Add this line to center the text horizontally
-  ctx.textBaseline = "middle"; // Add this line to center the text vertically
+  ctx.textAlign = "left"; 
+  ctx.textBaseline = "middle"; 
 }
 
 function drawStartScreen() {
@@ -108,8 +108,8 @@ function drawStartScreen() {
 
   ctx.font = "25px Copperplate";
   ctx.fillStyle = "white";
-  ctx.textAlign = "center"; // Add this line to center the text horizontally
-  ctx.textBaseline = "middle"; // Add this line to center the text vertically
+  ctx.textAlign = "center"; 
+  ctx.textBaseline = "middle"; 
   ctx.fillText("Click or Press Enter to Start", canvas.width / 2 , canvas.height / 2);
 }
 
@@ -120,8 +120,8 @@ function endGame() {
 }
 
 function gameLoop() {
-  ctx.fillStyle = "lightblue"; // Set the background color
-  ctx.fillRect(0, 0, canvas.width, canvas.height); // Draw the background color
+  ctx.fillStyle = "lightblue"; 
+  ctx.fillRect(0, 0, canvas.width, canvas.height); 
   
 
   if (!gameStarted) {
@@ -143,8 +143,8 @@ function gameLoop() {
 function startGame() {
   obstacleX = canvas.width;
   score = 0;
-  birdY = canvas.height / 2; // reset birdY to starting position
-  birdSpeed = 0; // reset bird's speed to zero
+  birdY = canvas.height / 2;  
+  birdSpeed = 0; 
   gameStarted = true;
   requestAnimationFrame(gameLoop);
 }
