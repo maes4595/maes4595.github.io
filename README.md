@@ -12,7 +12,7 @@
 ### - <a href="https://maes4595.github.io/ica/ica3a.html">ICA3A</a> <a href="https://maes4595.github.io/ica/ica3b.html">ICA3B</a>
 ### - <a href="https://maes4595.github.io/ica/ICA4.html">ICA4</a>
 ### - <a href="https://maes4595.github.io/ica/ica5.html">ICA5</a>
-### - <a href="https://maes4595.github.io/ica/ica6-part2.html">ICA6</a>
+### - <a href="http://maes4595.me/ica/ica6/ica6-part2.html">ICA6</a>
 ### - <a href="https://maes4595.github.io/ica/ica7/ica7.html">ICA7</a>
 ### - ICA8(Spring Break)
 ### - <a href="https://maes4595.github.io/ica/ica9.html">ICA9</a>
