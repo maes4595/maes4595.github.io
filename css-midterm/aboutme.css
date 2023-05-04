@@ -15,8 +15,11 @@
 
 
   ul {
-    list-style-position: inside;
+    list-style-position: outside;
     text-align: center;
+ list-style: none;
+
+
   }
   
   h1 {
