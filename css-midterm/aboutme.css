@@ -6,7 +6,7 @@
   }
   
   body {
-    font-family: copperplate;
+    font-family: baskerville;
     font-size: 16px;
     color: #240346;
     background-color: #F3EFFF;
@@ -16,21 +16,21 @@
 
   ul {
     list-style-position: inside;
-    text-align: left;
+    text-align: center;
   }
   
   h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
     text-align: center;
     color: hsl(0, 0%, 100%);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   }
   h2{
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0;
     text-align: center;
-    color: #039156;
+    color: #240346;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 
   }
@@ -52,24 +52,25 @@
     box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     padding: 2em;
     margin: 1em 0;
-    background-image: url('../img/flower.jpg');
+    background-image: url('../img/Purple-Paw-Print-No-Background-www.wallpapersbrowse.com_.jpg');
     background-size: cover;
   background-position: center;
+  
 
   }
   .box p{
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0;
     text-align: center;
-    color: #004b2c;
+    color: #240346;
 
   }
   
   .button {
     display: inline-block;
-    background-color:#039156;
-    color: #004b2c;
-    text-transform: uppercase;
+    background-color:#c26dff;
+    color: #240346;
+
     padding: 1em 2em;
     border-radius: 5px;
     text-decoration: none;
@@ -78,19 +79,19 @@
   }
   
   .button:hover {
-    background-color: #c26dff;
+    background-color:white;
   }
   
   .text {
     font-style: italic;
     text-align: center;
     margin: 2em 0;
-    color: #ba66ff;
+    color: #240346;
   }
   
   header {
     background-color: #c49dfb;
-    color: #FFFFFF;
+    color: #240346;
     padding: 1rem;
     width: 100%;
     position: sticky;
@@ -100,7 +101,7 @@
   
   nav {
     background-color: #ba66ff;
-    color: #FFFFFF;
+    color: #240346;
     padding: .5em;
     width: 100%;
     position: sticky;
@@ -118,12 +119,12 @@
   }
   
   nav a {
-    color: #FFFFFF;
+    color: #240346;
     text-decoration: none;
   }
 
   nav a:hover {
-    color: #240346;
+    color: white;
   }
   
   .grid {
